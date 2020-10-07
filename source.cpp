@@ -4,7 +4,7 @@ int tong(int a, int b);
 int hieu(int a, int b)
 {
 	int hieu = 0;
-	hieu = a/b;
+	hieu = a-b;
 	return hieu;
 }
 int tich(int a, int b);
@@ -23,7 +23,7 @@ int main()
 		
 		break;
 	case '-':
-
+		cout << "hieu la " << hieu(a,b);
 		break;
 	case '*':
 
