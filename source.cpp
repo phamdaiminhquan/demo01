@@ -35,7 +35,7 @@ int main()
 		cout << "hieu la " << hieu(a,b);
 		break;
 	case '*':
-
+		cout << "tich la " << tich(a,b);
 		break;
 	case '/':
 
@@ -45,4 +45,8 @@ int main()
 		break;
 	}
 	return 0;
+}
+
+int tich(int a, int b) {
+	return a*b;
 }
