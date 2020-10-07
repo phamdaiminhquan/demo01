@@ -16,11 +16,11 @@ int main()
 	cout << "Nhap 2 so nguyen: ";
 	cin >> a >> b;
 	cout << "Tinh gi? (+,-,*,/) ";
-	cin >> ch;
+	cin >> phepToan;
 	switch (phepToan)
 	{
 	case '+':
-		cout << "tong la; "<< tong(a,b);
+		cout << "tong la: "<< tong(a,b);
 		break;
 	case '-':
 
