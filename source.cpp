@@ -1,10 +1,16 @@
+
 #include <iostream>
 using namespace std;
 
+const float PI = 3.14159;
 float thuong(int a, int b);
 int tong(int a, int b);
 int tich(int a, int b);
 int hieu(int a, int b);
+
+int CV_chunhat(int a, int b);
+int CV_HinhVuong(int a);
+int CV_HinhTron(int r);
 
 int main()
 {
@@ -51,3 +57,19 @@ int hieu(int a, int b){
 	hieu = a - b;
 	return hieu;
 }
+
+int CV_chunhat(int a, int b) {
+	return (a + b) * 2;
+}
+
+int CV_HinhVuong(int a){
+	return 4 * a;
+}
+
+int CV_HinhTron(int r){
+	return 2 * r * PI;
+}
+
+
+
+
