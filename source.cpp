@@ -1,11 +1,16 @@
+
 #include <iostream>
 using namespace std;
 
+const float PI = 3.14159;
 float thuong(int a, int b);
 int tong(int a, int b);
 int tich(int a, int b);
 int hieu(int a, int b);
 
+int DT_chunhat(int a, int b);
+int DT_HinhVuong(int a);
+int DT_HinhTron(int r);
 int main()
 {
 	int a, b;
@@ -51,3 +56,18 @@ int hieu(int a, int b){
 	hieu = a - b;
 	return hieu;
 }
+int DT_chunhat(int a, int b) {
+	return a * b;
+}
+
+int DT_HinhVuong(int a){
+	return a * a;
+}
+
+int DT_HinhTron(int r){
+	return PI * r * r;
+}
+
+
+
+
