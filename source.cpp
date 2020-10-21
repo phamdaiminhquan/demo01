@@ -12,6 +12,9 @@ int CV_chunhat(int a, int b);
 int CV_HinhVuong(int a);
 int CV_HinhTron(int r);
 
+int DT_chunhat(int a, int b);
+int DT_HinhVuong(int a);
+int DT_HinhTron(int r);
 int main()
 {
 	int a, b;
@@ -68,6 +71,17 @@ int CV_HinhVuong(int a){
 
 int CV_HinhTron(int r){
 	return 2 * r * PI;
+
+int DT_chunhat(int a, int b) {
+	return a * b;
+}
+
+int DT_HinhVuong(int a){
+	return a * a;
+}
+
+int DT_HinhTron(int r){
+	return PI * r * r;
 }
 
 
